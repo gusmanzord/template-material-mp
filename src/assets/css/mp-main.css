@@ -1,0 +1,85 @@
+/* Tema Angular Material */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+html, body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    background:#cfd8dc;
+    font-family: 'Open Sans', sans-serif;
+    overflow:hidden;
+}
+main{
+    width:100%;
+    height:92%;
+    margin:0;
+    padding-top:64px;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+}
+app-name{
+    flex:1;
+}
+app-name h2{
+    margin:auto;
+    padding:14px;
+    font-size:1.5em;
+    color:#fff;
+    margin:auto;
+    background: -webkit-linear-gradient(#cfd8dc, rgba(65,67,84, 1.0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1{
+    font-size:2.5em !important;
+    color:#fff;
+    margin:auto;
+    padding:14px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 600 !important;
+    color:rgba(54,67,84, 1.0) !important;
+}
+.mp-header{
+    flex:1;
+    padding:14px;
+    background:#eceff1;
+    font-size:1.3em;
+    font-weight:100 !important;
+}  
+.mp-content{
+    flex:20;
+    overflow:auto;
+    overflow-x:hidden;
+}
+
+.float-right{
+    float:right;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
