@@ -10,6 +10,8 @@ import { MenuComponent } from './menu/menu.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { LogoComponent } from './logo/logo.component';
 import { AppnameComponent } from './appname/appname.component';
+import { AppRoutingModule } from './app-routing.module';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -25,11 +27,14 @@ import { AppnameComponent } from './appname/appname.component';
     MaterialModule,
     FormsModule,
     ReactiveFormsModule,
+    AppRoutingModule,
+    CoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
 
 
 

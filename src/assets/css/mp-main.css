@@ -22,13 +22,16 @@ main{
 }
 app-name{
     flex:1;
+    background:rgba(0, 0, 0, 0.2);
 }
 app-name h2{
     margin:auto;
     padding:14px;
     font-size:1.5em;
+    max-width:220px;
+    text-align:center;
+    font-weight:100 !important;
     color:#fff;
-    margin:auto;
     background: -webkit-linear-gradient(#cfd8dc, rgba(65,67,84, 1.0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
