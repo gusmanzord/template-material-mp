@@ -5,21 +5,29 @@
         Acervo
       </mat-panel-title>
     </mat-expansion-panel-header>
-     <a routerLink="/orgaos" >
-      <mat-icon>home</mat-icon>
-      Dashboard
+     <a routerLink="/importar-processo" >
+      <mat-icon>import_export</mat-icon>
+      Importar processos
+    </a>
+     <a routerLink="/lista-processo" >
+      <mat-icon>description</mat-icon>
+      Lista de Processos
     </a>
   </mat-expansion-panel>
   <mat-expansion-panel (opened)="panelOpenState = true"
                        (closed)="panelOpenState = false">
     <mat-expansion-panel-header>
       <mat-panel-title>
-        Item_2
+        Judicial
       </mat-panel-title>
     </mat-expansion-panel-header>
-     <a href="">
-      <mat-icon>home</mat-icon>
+     <a routerLink="/dashboard">
+      <mat-icon>dashboard</mat-icon>
       painel Administrativo
+    </a>
+    <a routerLink="/intimacoes">
+      <mat-icon>description</mat-icon>
+      Intimações 2º grau
     </a>
   </mat-expansion-panel>
 </mat-accordion>

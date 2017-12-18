@@ -51,18 +51,38 @@ h1{
     background:#eceff1;
     font-size:1.3em;
     font-weight:100 !important;
+    animation-name:headerAnimate;
+    -webkit-animation-name:headerAnimate;
+    animation-duration:1s;
+    -webkit-animation-duration:1s;    
 }  
+.mp-title{
+    font-size:1.1em;
+    font-weight:100;
+}
+
 .mp-content{
     flex:20;
     overflow:auto;
     overflow-x:hidden;
+    animation-name:contentAnimate;
+    -webkit-animation-name:contentAnimate;
+    animation-duration:1s;
+    -webkit-animation-duration:1s;
 }
-
 .float-right{
     float:right;
 }
 .spacer {
   flex: 1 1 auto;
+}
+ .mat-card.mp-ala
+rm{
+    padding:14px;
+    color:#fafafa;
+}
+.mp-alarm-primary{
+    background:rgba(54,67,84, 1.0) !important;
 }
 
 

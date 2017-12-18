@@ -2,11 +2,17 @@ import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
 import { DashboardComponent } from './core/dashboard/dashboard.component';
+import { ImportarProcessoComponent } from './core/importar-processo/importar-processo.component';
+import { ListaProcessoComponent } from './core/lista-processo/lista-processo.component';
+import { IntimacoesComponent } from './core/intimacoes/intimacoes.component';
 
 
 const appRoutes: Routes = [
   { path: '', component: DashboardComponent },
-  { path: 'orgaos', loadChildren: './core/importar-processo/importar-processo.component'},
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'importar-processo', component: ImportarProcessoComponent},
+  { path: 'lista-processo', component: ListaProcessoComponent},
+  { path: 'intimacoes', component: IntimacoesComponent},
   { path: '**', redirectTo: '' }
 ];
 
@@ -24,3 +30,5 @@ const appRoutes: Routes = [
 export class AppRoutingModule {
 
 }
+
+

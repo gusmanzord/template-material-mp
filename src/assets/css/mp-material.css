@@ -33,3 +33,9 @@ mat-sidenav-content::-webkit-scrollbar-thumb{
 .mat-fab.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary{
     background:rgba(54,67,84, 1.0) !important;
 }
+.mat-form-field{
+    width:100% !important;
+}
+.mat-slide-toggle{
+    margin-top:21px;
+}
