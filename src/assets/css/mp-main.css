@@ -76,13 +76,17 @@ h1{
 .spacer {
   flex: 1 1 auto;
 }
- .mat-card.mp-ala
-rm{
+
+.mat-card.mp-alarm{
     padding:14px;
     color:#fafafa;
+    border-radius:0;
 }
 .mp-alarm-primary{
     background:rgba(54,67,84, 1.0) !important;
+}
+.mat-menu-content small {
+    padding: 7px;
 }
 
 
