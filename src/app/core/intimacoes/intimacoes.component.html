@@ -1,8 +1,21 @@
 <div class="mp-header">
+  <mat-icon routerLink="/dashboard">
+    chevron_left
+  </mat-icon>
   <mat-icon>
     description
   </mat-icon>
   Listagem de intimações
+  <ul class="breadcrumb">
+    <li>
+      <a href="">
+        Home
+      </a>
+    </li>
+    <li>
+      Listagem de intimações
+    </li>
+  </ul>
 </div>
 <div class="mp-content">
   <mat-card class="mp-alarm mp-alarm-primary">
@@ -120,14 +133,34 @@
             </h5>
           </mat-card-content>
           <mat-card-actions>
-            <button matTooltip="Detalhar processo" mat-icon-button color="primary">
+            <button matTooltip="Detalhar processo" mat-mini-fab color="basic">
               <mat-icon>
                 find_in_page
               </mat-icon>
             </button>
-            <button  matTooltip="Ativar processo" mat-icon-button color="primary">
+            <button  matTooltip="Ativar processo" mat-mini-fab color="basic">
               <mat-icon>
                 check
+              </mat-icon>
+            </button>
+            <button  matTooltip="Abrir intimação" mat-mini-fab color="basic" disabled>
+              <mat-icon>
+                drafts
+              </mat-icon>
+            </button>
+            <button  matTooltip="Abrir intimação Portal TJRJ" mat-mini-fab color="basic" disabled>
+              <mat-icon>
+                drafts
+              </mat-icon>
+            </button>
+            <button  matTooltip="Peticionar" mat-mini-fab color="basic">
+              <mat-icon>
+                mode_edit
+              </mat-icon>
+            </button>
+            <button matTooltip="Detalhar processo em uma nova aba" mat-mini-fab color="basic" class="float-right">
+              <mat-icon>
+                open_in_new
               </mat-icon>
             </button>
           </mat-card-actions>

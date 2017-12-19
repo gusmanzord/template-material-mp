@@ -47,7 +47,7 @@ h1{
 }
 .mp-header{
     flex:1;
-    padding:14px;
+    padding:7px 14px;
     background:#eceff1;
     font-size:1.3em;
     font-weight:100 !important;
@@ -55,6 +55,7 @@ h1{
     -webkit-animation-name:headerAnimate;
     animation-duration:1s;
     -webkit-animation-duration:1s;    
+    color:#364354;
 }  
 .mp-title{
     font-size:1.1em;
@@ -78,7 +79,7 @@ h1{
 }
 
 .mat-card.mp-alarm{
-    padding:14px;
+    padding:7px;
     color:#fafafa;
     border-radius:0;
 }
@@ -89,8 +90,23 @@ h1{
     padding: 7px;
 }
 
-
-
+.breadcrumb{
+    width:100%;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.breadcrumb li{
+    display:inline;
+    margin: 0 0 0 7px;
+    font-size:0.55em;
+}
+.breadcrumb li > a{
+    text-decoration:none;
+}
+.breadcrumb li > a:after{
+    content:"/";
+}
 
 
 
