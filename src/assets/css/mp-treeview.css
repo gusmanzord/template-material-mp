@@ -1,0 +1,21 @@
+treeview .mat-expansion-panel{
+    background:transparent;
+    box-shadow:none !important;
+    border-bottom:1px solid #ededed;
+}
+treeview .mat-expansion-panel-header{
+    height:40px;
+    padding:0;
+}
+treeview .mat-expansion-panel-header:hover{
+    background:transparent !important;
+}
+treeview .mat-expansion-panel-body{
+    display:flex;
+    flex-direction:column;
+    padding:0 0 0 7px;
+}
+treeview .mat-expansion-panel-body a{
+    flex:1;
+
+}

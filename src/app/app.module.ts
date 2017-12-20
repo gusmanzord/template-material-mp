@@ -13,6 +13,7 @@ import { AppnameComponent } from './appname/appname.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +35,7 @@ import { CoreModule } from './core/core.module';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
 
 
 

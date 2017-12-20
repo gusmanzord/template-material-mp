@@ -107,6 +107,9 @@ h1{
 .breadcrumb li > a:after{
     content:"/";
 }
+.mat-card-content h6{
+    font-size: 5.4em;
+}
 
 
 
