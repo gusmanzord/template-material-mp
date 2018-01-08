@@ -15,42 +15,243 @@
   </ul>
 </div>
 <div class="mp-content">
-  <div class="mp-row">
-    <div class="mp-col-6">
-      <mat-card>
-        <mat-card-title>
-          10ª PROCURADORIA DE JUSTIÇA DE HABEAS CORPUS
-        </mat-card-title>
+<div class="mp-row">  
+  <div class="mp-col-12">
+    <mat-tab-group class="demo-tab-group">
+      <mat-tab label="10ª PROCURADORIA DE JUSTIÇA DE HABEAS CORPUS">
+        <div class="demo-tab-content">
+          <mat-card>
+            <mat-card-content>
+              <div class="mp-row">
+                <div class="mp-col-6">
+                  <h4 class="fs5_4 padding0 margin0 text-center text-light ">
+                    <a href="">
+                      114
+                    </a>
+                  </h4>
+                  <h4 class="text-center">
+                    Intimações não respondidas
+                  </h4>
+                </div>
+                <div class="mp-col-6">
+                  <h4 class="fs5_4 padding0 margin0 text-center text-light ">
+                    <a href="">
+                      1
+                    </a>
+                  </h4>
+                  <h4 class="text-center">
+                    intimações não respondidas há mais de 30 dias
+                  </h4>
+                </div>
+              </div>
+            </mat-card-content>
+         </mat-card>
+      </div>
+    </mat-tab>
+  <mat-tab label="1ª PROCURADORIA DE JUSTIÇA JUNTO À 20ª CÂMARA CÍVEL DO TRIBUNAL DE JUSTIÇA DO ESTADO DO RIO DE JANEIRO">
+    <div class="demo-tab-content">
+       <mat-card>
         <mat-card-content>
           <div class="mp-row">
             <div class="mp-col-6">
-                <h6>
-                  130
-                </h6>
-                <p>
-                  Intimações não respondidas
-                </p>
+              <h4 class="fs5_4 padding0 margin0 text-center text-light ">
+                <a href="">
+                  114
+                </a>
+              </h4>
+              <h4 class="text-center">
+                Intimações não respondidas
+              </h4>
             </div>
             <div class="mp-col-6">
-                 <h6>
-                  130
-                </h6>
-                <p>
-                 Intimações não respondidas há mais de 30 dias
-                </p>
+              <h4 class="fs5_4 padding0 margin0 text-center text-light ">
+                <a href="">
+                  1
+                </a>
+              </h4>
+              <h4 class="text-center">
+                intimações não respondidas há mais de 30 dias
+              </h4>
             </div>
           </div>
         </mat-card-content>
       </mat-card>
+    </div>  
+  </mat-tab>
+  <mat-tab label="4ª PROCURADORIA DE JUSTIÇA JUNTO À 20ª CÂMARA CÍVEL DO TRIBUNAL DE JUSTIÇA DO ESTADO DO RIO DE JANEIRO
+">
+    <div class="demo-tab-content">
+      <mat-card>
+        <mat-card-content>
+          <div class="mp-row">
+            <div class="mp-col-6">
+               <h4 class="fs5_4 padding0 margin0 text-center text-light ">
+                <a href="">
+                  0
+                </a>
+              </h4>
+              <h4 class="text-center">
+                Intimações não respondidas
+              </h4>
+            </div>
+            <div class="mp-col-6">
+               <h4 class="fs5_4 padding0 margin0 text-center text-light ">
+                <a href="">
+                  0
+                </a>
+              </h4>
+              <h4 class="text-center">
+                Intimações não respondidas há mais de 30 dias
+              </h4>
+            </div>
+          </div>
+        </mat-card-content>  
+      </mat-card>  
+    </div> 
+  </mat-tab>
+  <mat-tab label="5ª PROCURADORIA DE JUSTIÇA JUNTO À 4ª CÂMARA CRIMINAL DO TRIBUNAL DE JUSTIÇA DO ESTADO DO RIO DE JANEIRO
+">
+  <div class="demo-tab-content">
+    <mat-card>
+      <mat-card-content>
+ <div class="mp-row">
+      <div class="mp-col-6">
+        <h4 class="fs5_4 padding0 margin0 text-center text-light ">
+          <a href="">
+           2
+          </a>
+        </h4>
+        <h4 class="text-center">
+          Intimações não respondidas
+        </h4>
+      </div>
+      <div class="mp-col-6">
+        <h4 class="fs5_4 padding0 margin0 text-center text-light ">
+          <a href="">
+            0
+          </a>
+        </h4>
+        <h4 class="text-center">
+         Intimações não respondidas há mais de 30 dias
+        </h4>
+      </div>
     </div>
-    <div class="mp-col-6">
-     <mat-card></mat-card>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  </mat-tab>
+</mat-tab-group>
+  </div>
+</div> 
+<div class="mp-row">
+  <div class="mp-col-5">
+    <h4 class="mp-title">
+      Intimações mais antigas não respondidas
+      <a routerLink="/intimacoes" mat-mini-fab >
+        <mat-icon>
+          open_in_new
+        </mat-icon>
+      </a>
+    </h4>
+    <div class="mp-row">
+      <div class="mp-col">
+        <mat-card>
+          <mat-card-title>
+            0000236-14.2014.8.19.0209
+          </mat-card-title>
+          <mat-card-subtitle>
+            <mat-chip-list>
+              <mat-chip color="warn" selected="true">Recebida Tácita </mat-chip>
+            </mat-chip-list>
+          </mat-card-subtitle>
+          <mat-card-content>
+            <h5>
+              <mat-icon>
+                access_time
+              </mat-icon>
+              22/11/2017 19:57
+            </h5>
+            <h5>
+              <mat-icon>
+                home
+              </mat-icon>
+              I JUIZADO ESPECIAL CÍVEL DA REGIONAL DA BARRA DA TIJUC
+            </h5>
+          </mat-card-content>
+          <mat-card-actions>
+            <button  routerLink="/processo" matTooltip="Detalhar processo" mat-mini-fab color="basic">
+              <mat-icon>
+                find_in_page
+              </mat-icon>
+            </button>
+          <button  routerLink="/intimacoes" matTooltip="Listagem de intimacoes" mat-mini-fab color="basic">
+              <mat-icon>
+                insert_drive_file
+              </mat-icon>
+            </button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
     </div>
-    <div class="mp-col-6">
-      <mat-card></mat-card>
-    </div>
-    <div class="mp-col-6">
-      <mat-card></mat-card>
+    <div class="mp-row">
+      <div class="mp-col">
+         <mat-card>
+          <mat-card-title>
+            0000236-14.2014.8.19.0209
+          </mat-card-title>
+          <mat-card-subtitle>
+            <mat-chip-list>
+              <mat-chip color="warn" selected="true">Recebida Tácita </mat-chip>
+            </mat-chip-list>
+          </mat-card-subtitle>
+          <mat-card-content>
+            <h5>
+              <mat-icon>
+                access_time
+              </mat-icon>
+              22/11/2017 19:57
+            </h5>
+            <h5>
+              <mat-icon>
+                home
+              </mat-icon>
+              I JUIZADO ESPECIAL CÍVEL DA REGIONAL DA BARRA DA TIJUC
+            </h5>
+          </mat-card-content>
+          <mat-card-actions>
+            <button  routerLink="/processo" matTooltip="Detalhar processo" mat-mini-fab color="basic">
+              <mat-icon>
+                find_in_page
+              </mat-icon>
+            </button>
+           <button  routerLink="/intimacoes" matTooltip="Listagem de intimacoes" mat-mini-fab color="basic">
+              <mat-icon>
+                insert_drive_file
+              </mat-icon>
+            </button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
     </div>
   </div>
+  <div class="mp-col-7">
+    <h4 class="mp-title">
+      Total de intimações por situação
+    </h4>
+    <div class="mp-row">
+      <div class="mp-col-12">
+        <canvas baseChart
+          [data]="doughnutChartData"
+          [labels]="doughnutChartLabels"
+          [chartType]="doughnutChartType"
+          (chartHover)="chartHovered($event)"
+          (chartClick)="chartClicked($event)">
+        </canvas>
+      </div>    
+      </div>
+    </div>
+    
+</div> 
+
+
 </div> 

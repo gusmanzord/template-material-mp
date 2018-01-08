@@ -1,18 +1,21 @@
 import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes, PreloadAllModules } from '@angular/router';
+import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './core/dashboard/dashboard.component';
 import { ImportarProcessoComponent } from './core/importar-processo/importar-processo.component';
 import { ListaProcessoComponent } from './core/lista-processo/lista-processo.component';
 import { IntimacoesComponent } from './core/intimacoes/intimacoes.component';
+import { ProcessoComponent } from './core/processo/processo.component';
 
 
 const appRoutes: Routes = [
-  { path: '', component: DashboardComponent },
+  { path: '', component: LoginComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'importar-processo', component: ImportarProcessoComponent},
   { path: 'lista-processo', component: ListaProcessoComponent},
   { path: 'intimacoes', component: IntimacoesComponent},
+  { path: 'processo', component: ProcessoComponent},
   { path: '**', redirectTo: '' }
 ];
 

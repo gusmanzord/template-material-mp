@@ -12,6 +12,7 @@ import { LogoComponent } from './logo/logo.component';
 import { AppnameComponent } from './appname/appname.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { CoreModule } from './core/core.module';
     PerfilComponent,
     LogoComponent,
     AppnameComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

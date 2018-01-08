@@ -28,6 +28,7 @@ app-menu .mat-expansion-panel-body a{
     text-overflow:ellipsis;
     overflow:hidden;
     white-space: nowrap;
-    padding:7px 7px 7px 21px;
+    padding:7px 7px 7px 7px;
     border-bottom: 1px solid #263238;
 }
+

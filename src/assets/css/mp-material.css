@@ -26,6 +26,7 @@ mat-sidenav-content::-webkit-scrollbar-thumb{
 .mat-toolbar{
     background:rgba(207,216,220, 0.9) !important;
     position:fixed;
+    z-index:999;
 }
 .mat-drawer{
     display:flex !important;
@@ -42,4 +43,17 @@ mat-sidenav-content::-webkit-scrollbar-thumb{
 .mat-card-content h5{
     padding:0;
     margin:0;
+}
+.mat-tab-header-pagination{
+    background:rgba(54,67,84, 0.8);
+}
+.mat-tab-header-pagination-chevron{
+    border-color:#fafafa;
+}
+.mat-tab-header-pagination-disabled{
+    background:#ededed;
+}
+.mat-fab.mat-success, .mat-mini-fab.mat-success, .mat-raised-button.mat-success{
+    background:#43a047;
+    color:#fafafa;
 }

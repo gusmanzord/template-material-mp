@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { MaterialModule } from '../material/material.module';
 import {PageEvent} from '@angular/material';
+import { ChartsModule } from 'ng2-charts';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ImportarProcessoComponent } from './importar-processo/importar-processo.component';
 import { ListaProcessoComponent } from './lista-processo/lista-processo.component';
 import { IntimacoesComponent } from './intimacoes/intimacoes.component';
 import { TreeviewComponent } from './treeview/treeview.component';
+import { ProcessoComponent } from './processo/processo.component';
 
 
 
@@ -18,11 +20,13 @@ import { TreeviewComponent } from './treeview/treeview.component';
     ListaProcessoComponent,
     IntimacoesComponent,
     TreeviewComponent,
+    ProcessoComponent,
   ],
 
   imports: [
     RouterModule,
     MaterialModule,
+    ChartsModule,
   ],
  exports: [
     RouterModule,

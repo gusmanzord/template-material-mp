@@ -16,7 +16,8 @@ import {
   MatSlideToggleModule,
   MatChipsModule,
   MatTooltipModule,
-  MatDatepickerModule
+  MatDatepickerModule,
+  MatTabsModule
 } from '@angular/material';
 
 
@@ -38,7 +39,8 @@ import {
     MatSlideToggleModule,
     MatChipsModule,
     MatTooltipModule,
-    MatDatepickerModule
+    MatDatepickerModule,
+    MatTabsModule
   ],
   exports: [
     MatButtonModule,
@@ -57,7 +59,8 @@ import {
     MatSlideToggleModule,
     MatChipsModule,
     MatTooltipModule,
-    MatDatepickerModule
+    MatDatepickerModule,
+    MatTabsModule
   ]
 })
 export class MaterialModule { }

@@ -20,6 +20,7 @@
       "prefix": "app",
       "styles": [
         "assets/css/mp-main.css",
+        "assets/css/mp-login.css",
         "assets/css/menu.css",
         "assets/css/mp-grid.css",
         "assets/css/mp-material.css",
